@@ -1,40 +1,40 @@
-
+h1{
+    margin-left: 160px; 
+    font-size: 24px; 
+    padding: 0px 10px; 
+}
 
 #navbar {
   height: 100%;
-  width: 0;
+  width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 #navbar a {
-  padding: 8px 8px 8px 32px;
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
 }
 
 #navbar a:hover {
   color: #f1f1f1;
 }
 
-#navbar .nav-link {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+#main-doc {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 16px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
 
 @media screen and (max-height: 450px) {
-    #navbar {padding-top: 15px;}
-    #navbar a {font-size: 18px;}
+    #nav-link {padding-top: 15px;}
+  #nav-link a {font-size: 18px;}
 }
