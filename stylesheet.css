@@ -47,3 +47,21 @@ h1 {
     font-size: 18px;
   }
 }
+#characters {
+    list-style-type: none;
+    margin-left:0px;
+    padding-left:0px;
+    display: inline-block;
+    }
+    
+    #characters img
+    {
+    float:left;
+    }
+    
+    #characters p,#characters h3 {
+    text-align: right; 
+    display:inline-block;
+    padding: 0;
+    }
+    
